@@ -41,3 +41,14 @@ release:
     ---
 
     Released by [GoReleaser](https://github.com/goreleaser/goreleaser).
+
+brews:
+  - 
+    name: adr
+    homepage: https://github.com/herrmannplatz/adr
+    repository:
+      owner: herrmannplatz
+      name: homebrew-adr
+    commit_author:
+      name: René Herrmann
+      email: rene@herrmannplatz
