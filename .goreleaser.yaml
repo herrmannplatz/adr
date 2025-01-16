@@ -49,6 +49,7 @@ brews:
     repository:
       owner: herrmannplatz
       name: homebrew-adr
+      token: "{{ .Env.TAP_GITHUB_TOKEN }}"
     commit_author:
       name: René Herrmann
       email: rene@herrmannplatz
