@@ -28,6 +28,7 @@ func Execute() {
 }
 
 func init() {
-	rootCmd.AddCommand(NewAddCmd(template, defaultDir))
 	rootCmd.AddCommand(NewInitCmd(template, defaultDir))
+	rootCmd.AddCommand(NewAddCmd(template, defaultDir))
+	rootCmd.AddCommand(NewListCmd(template, defaultDir))
 }
